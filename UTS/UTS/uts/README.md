@@ -2,12 +2,12 @@
 
 Ini adalah proyek Ujian Tengah Semester (UTS) mata kuliah Mobile Programming. Aplikasi ini dibuat menggunakan Flutter dan bertujuan untuk membantu pengguna melacak dan mengingat jadwal minum obat harian mereka.
 
-## [cite_start]Tema dan Tujuan Aplikasi [cite: 196]
+# Tema dan Tujuan Aplikasi
 
 * **Tema:** Kesehatan & Kesejahteraan (Health & Wellness)
 * **Tujuan:** Tujuan utama aplikasi ini adalah menyediakan antarmuka yang bersih dan intuitif bagi pengguna untuk melihat jadwal pengobatan mereka. Aplikasi ini membantu mengatasi masalah umum lupa minum obat dengan menyediakan kalender harian dan daftar obat yang harus dikonsumsi.
 
-## [cite_start]Daftar Halaman dan Fungsinya [cite: 196]
+# Daftar Halaman dan Fungsinya
 
 Aplikasi ini terdiri dari 3 halaman (routes) utama:
 
