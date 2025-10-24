@@ -1,16 +1,34 @@
-# uts
+# Aplikasi Pengingat Obat (Medication Reminder)
 
-A new Flutter project.
+Ini adalah proyek Ujian Tengah Semester (UTS) mata kuliah Mobile Programming. Aplikasi ini dibuat menggunakan Flutter dan bertujuan untuk membantu pengguna melacak dan mengingat jadwal minum obat harian mereka.
 
-## Getting Started
+## [cite_start]Tema dan Tujuan Aplikasi [cite: 196]
 
-This project is a starting point for a Flutter application.
+* **Tema:** Kesehatan & Kesejahteraan (Health & Wellness)
+* **Tujuan:** Tujuan utama aplikasi ini adalah menyediakan antarmuka yang bersih dan intuitif bagi pengguna untuk melihat jadwal pengobatan mereka. Aplikasi ini membantu mengatasi masalah umum lupa minum obat dengan menyediakan kalender harian dan daftar obat yang harus dikonsumsi.
 
-A few resources to get you started if this is your first Flutter project:
+## [cite_start]Daftar Halaman dan Fungsinya [cite: 196]
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Aplikasi ini terdiri dari 3 halaman (routes) utama:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1.  **Halaman Home (`home_screen.dart`)**
+    * **Fungsi:** Bertindak sebagai dasbor harian. Halaman ini menampilkan daftar obat yang harus diminum pengguna berdasarkan tanggal yang dipilih.
+    * **Fitur:**
+        * Menampilkan tombol filter cepat untuk "Today" dan "Tomorrow".
+        * Menampilkan widget kalender interaktif (`table_calendar`) untuk memilih tanggal tertentu.
+        * Menampilkan daftar obat yang dijadwalkan untuk tanggal yang dipilih.
+        * Menampilkan status "kosong" jika tidak ada jadwal obat.
+
+2.  **Halaman Medications (`medications_screen.dart`)**
+    * **Fungsi:** Bertindak sebagai inventaris atau daftar lengkap semua obat yang terdaftar.
+    * **Fitur:**
+        * Menampilkan daftar obat yang dibagi menjadi "Active Medicines" dan "Inactive Medicines".
+        * Memiliki *search bar* untuk mencari obat.
+        * Setiap item obat dapat diketuk untuk melihat detailnya.
+
+3.  **Halaman Detail Obat (`medication_detail_screen.dart`)**
+    * **Fungsi:** Menampilkan informasi rinci tentang satu obat yang dipilih.
+    * **Fitur:**
+        * Menampilkan nama, status (aktif/inaktif), jadwal, dan dosis obat.
+        * Menampilkan informasi tambahan (data *dummy*) seperti catatan dari dokter.
+        * Memiliki tombol "Back" di `AppBar` untuk kembali ke Halaman Medications.
